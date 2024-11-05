@@ -1,0 +1,1 @@
+print("kakha,irakli,luka chaganava,Tamari,tato tevzadze")
