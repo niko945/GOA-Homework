@@ -1,0 +1,41 @@
+#p1{
+    color: brown;
+    background-color: blue;
+    font-size: xx-small;
+    font-weight: 100;
+    text-align: center;
+}
+
+#p2{
+    color: rgb(42, 165, 159);
+    background-color: rgb(255, 0, 0);
+    font-size: xx-small;
+    font-weight: 100;
+    text-align: center;
+}
+
+.p4{
+    color: aqua;
+    background-color: darkblue;
+    font-size: larger;
+    font-weight: lighter;
+    text-align: right;
+}
+
+.p4{
+    color: rgb(255, 0, 170);
+    background-color: rgba(139, 0, 0, 0);
+    font-size: larger;
+    font-weight: lighter;
+    text-align: right;
+}
+
+
+#p5{
+    color: rgb(52, 165, 42);
+    background-color: rgb(153, 0, 255);
+    font-size: xx-small;
+    font-weight: 100;
+    text-align: center;
+}
+ 
