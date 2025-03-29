@@ -1,0 +1,29 @@
+#p1{
+    color:blue;
+    background-color:white;
+    text-align: center;
+    font-size: xx-small;
+    font-weight: 100;
+    }
+
+
+
+#p2{
+        color: rgb(42, 165, 159);
+        background-color: rgb(255, 0, 0);
+        font-size: xx-small;
+        font-weight: 100;
+        text-align: center;
+    }
+
+
+
+
+
+#p3{
+        color: rgb(255, 0, 170);
+        background-color: rgba(139, 0, 0, 0);
+        font-size: larger;
+        font-weight: lighter;
+        text-align: right;
+    }
