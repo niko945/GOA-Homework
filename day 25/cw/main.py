@@ -17,4 +17,4 @@ num(5, 6)
 
 def food(section):
     print(f"მე ვჭამ {section}")
-food(apple)
+food("apple")
