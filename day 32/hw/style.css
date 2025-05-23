@@ -1,0 +1,22 @@
+.responsive-div {
+    width: 500px;
+    height: 500px;
+    background-color: #e70909;
+}
+
+@media (max-width: 600px) {
+    .responsive-div {
+        width: 90%;
+        background-color: green;
+        }
+}
+
+.custom-div {
+    font-size: 50px;
+}
+.custom-paragraph {
+    font-size: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: wavy underline overline green;
+}
