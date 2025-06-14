@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+a:link {
+    color: #000000;
+    background: #ffffff;
+}
+
+a:visited {
+    color: #6B4F28;
+    background: #f0f0f0;
+}
+
+a:hover {
+    color: #ffffff;
+    background: #ff9800;
+}
+
+a:active {
+    color: #ffffff;
+    background: #f44336;
+}
+
+
+.nav-link {
+    color: #1a237e;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    transition: color 0.2s;
+    margin-right: 16px;
+}
+
+.nav-link:hover {
+    color: #800000;
+}
+
+.nav-main {
+    font-weight: normal;
+}
+
+.nav-about {
+    font-weight: bold;
+}
+
+.nav-contact {
+    font-weight: normal;
+}
+
+
+
+.div{
+    width: 250px;
+    height: 150px; background: #fff;
+    color: #000; 
+    padding: 16px;
+}

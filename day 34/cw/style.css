@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+img {
+    width: 100px;
+    transition: width 0.5s;
+}
+
+img:hover {
+    width: 200px;
+}
+
+.hover-title {
+    transition: all 0.2s;
+}
+
+.hover-title:hover {
+    font-size: 40px;
+    background: red;
+}
+
+.hover-title:active {
+    background: blue;
+}
+
+
+.img-half, .img-three-quarters, .img-full {
+    transition: width 0.4s;
+    width: 200px;
+    display: block;
+    max-width: 100px;
+    height: auto;
+}
+
+.img-half:hover {
+    width: 50px;
+}
+
+.img-three-quarters:hover {
+    width: 75px;
+}
+
+.img-full:hover {
+    width: 100px;
+}
+
+body {
+    font-family: "Pixelify Sans", sans-serif;   
+}
