@@ -1,0 +1,23 @@
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 2px solid black;
+      text-align: center;
+      padding: 10px;
+    }
+    th {
+      background-color: red;
+      color: white;
+    }
+    td {
+      background-color: #b3ff00; /* მწვანე */
+    }
+    caption {
+      background-color: yellow;
+      font-weight: bold;
+      font-size: 24px;
+      padding: 10px;
+    }
