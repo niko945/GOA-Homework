@@ -1,0 +1,1 @@
+print("damatebiti gakvetili")
