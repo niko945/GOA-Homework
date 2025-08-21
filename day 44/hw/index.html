@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>
+        display: flex;/* კონტეინერი ხდება flex კონტეინერი და მის შიგნით არსებული ელემენტები (children) ავტომატურად გადადიან flex რეჟიმში */
+        flex-direction: row;/* (default) ელემენტები განლაგდებიან ჰორიზონტალურად, მარცხნიდან მარჯვნივ */
+        flex-direction: row-reverse;/* ელემენტები განლაგდებიან ჰორიზონტალურად, მაგრამ მარჯვნიდან მარცხნივ */
+        flex-direction: column;/* ელემენტები განლაგდებიან ვერტიკალურად, ზემოდან ქვემოთ */
+        flex-direction: column-reverse;/* ელემენტები ვერტიკალურად, მაგრამ ქვემოდან ზემოთ */
+        flex-wrap: nowrap; /* (default) ელემენტები არ გადავარდებიან ახალ ხაზზე — ყველა ერთ ხაზზე დარჩება */
+        flex-wrap: wrap; /* საჭიროების შემთხვევაში ელემენტები გადავარდებიან ახალ ხაზზე */
+        flex-wrap: wrap-reverse; /* wrap-ის მსგავსია, მაგრამ ქვედა ხაზიდან ზემოთ გადაადგილდება */
+        justify-content: flex-start; /* (default) ელემენტები იწყება კონტეინერის დასაწყისიდან */
+        justify-content: flex-end; /* ელემენტები მდებარეობს კონტეინერის ბოლოში */
+        justify-content: center; /* ელემენტები ცენტრში გასწორდებიან */
+        justify-content: space-between; /* პირველი და ბოლო ელემენტები მიეწებება კიდეებს, დანარჩენი თანაბრად განაწილდება */
+        justify-content: space-around; /* ელემენტებს ექნებათ თანაბარი სივრცე გარშემო */
+        justify-content: space-evenly; /* ყველა ელემენტს ექნება ზუსტად ერთნაირი სივრცე გარშემო */
+        align-items: stretch; /* (default) ელემენტები გაიწელება კონტეინერის სიმაღლის მიხედვით */
+        align-items: flex-start; /* ელემენტები კონტეინერის ზედა ნაწილში განლაგდება */
+        align-items: flex-end; /* ელემენტები ქვედა ნაწილში დაიწკრივება */
+        align-items: center; /* ელემენტები ცენტრში გასწორდება ვერტიკალურად */
+        align-items: baseline; /* ელემენტების ტექსტის ხაზები ერთ წრფეზე იქნება */
+        align-content: flex-start; /* ხაზები გაერთანდება ზედა მხარეს */
+        align-content: flex-end; /* ხაზები გაერთანდება ქვედა მხარეს */
+        align-content: center; /* ხაზები ცენტრში მოექცევა */
+        align-content: space-between; /* ხაზებს შორის სივრცე თანაბრად გადანაწილდება */
+        align-content: space-around; /* სივრცე თანაბრად გადანაწილდება ხაზების გარშემო */
+        align-content: stretch; /* ხაზები გაიწელება ხელმისაწვდომი სივრცის შესაბამისად */
+        flex: 1; /* child ელემენტი გაიზრდება ხელმისაწვდომი სივრცის თანაბრად გასაზიარებლად */
+        flex: 2; /* უფრო დიდი წილი – მაგალითად, 2-ჯერ მეტი სივრცე, ვიდრე flex: 1-ს */
+        flex-grow: 1; /* ელემენტი გაიზრდება, თუ არსებობს დამატებითი თავისუფალი სივრცე */
+        flex-shrink: 1; /* ელემენტი შემცირდება, თუ სივრცე ნაკლებია */
+        flex-basis: 200px; /* ელემენტის საწყისი სიგანე (ან სიმაღლე, თუ column-ია) */
+    </p>
+</body>
+</html>
